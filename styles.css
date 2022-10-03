@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+:root{
+    --background-color: #0f172a;
+    --text-color: #67e8f9;
+    --output-text: #f59e0b;
+}
+body{
+    font-family: 'Abyssinica SIL', serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.heading{
+    text-align: center;
+}
+
+.container{
+    display: block;
+    border: solid 1px;
+    width :50%;
+    margin : auto;
+    margin-top: 3rem;
+}
+#date-of-birth{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+#lucky-number{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+#check-dob{
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-color: #67e8f9;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    width: 30%;
+    cursor: pointer;
+}
+label{
+    display: block;
+    margin: 1rem;
+    border: solid 1px;
+    padding: 0.2rem;
+}
+
+.output-message{
+    margin: 1rem;
+    color: var(--output-text);
+    text-align: center;
+}
+
