@@ -25,7 +25,7 @@ function checkLuckyDob(){
 }
 function calculateSum(dob){
     var sum = 0;
-    dob = dob.replaceAll("-","");    
+    dob = dob.replaceAll("-","");   
     for(let i = 0; i < dob.length; i++){
         sum = sum + Number(dob.charAt(i));
     }
